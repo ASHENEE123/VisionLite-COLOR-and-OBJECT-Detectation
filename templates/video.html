@@ -55,11 +55,10 @@
 </head>
 <body>
   <div class="container">
-    <h2>Upload Image & Select Color</h2>
-    <form action="/image" method="POST" enctype="multipart/form-data" required>
-      <input type="file" name="image" accept="image/*" required>
+    <h2> Select Color</h2>
+    <form action="/st" method="POST" enctype="multipart/form-data">
       <label for="color">Pick a Color:</label>
-      <input type="color" name="color" id="color" value="#ff0000" required>
+      <input type="color" name="color" id="color" value="#ff0000">
       <button type="submit">Submit</button>
     </form>
   </div>
