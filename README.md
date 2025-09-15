@@ -1,4 +1,4 @@
-# ColorDetectation
+# VISIONLITE
 
 **ColorDetectation** is an educational Python project designed as a learning experiment for exploring OpenCV and its core computer vision techniques. The project provides a hands-on approach to detecting both colors and objects in images, supporting real-time webcam input and image uploads via a simple Flask web interface. Users can analyze images, see how OpenCV processes them, and download the annotated results.
 
